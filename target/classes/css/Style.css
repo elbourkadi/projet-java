@@ -1,0 +1,77 @@
+.title{
+-fx-font-size : 2em;
+-fx-text-fill :#016A91;
+-fx-font-weight :bold;
+}
+.form_container{
+-fx-background-color:#EEEEEE;
+
+}
+.form_container_text{
+-fx-font-size : 1.2em;
+-fx-fill:#888888;
+
+}
+.form_container VBox{
+-fx-border-width:0 0 0 1;
+-fx-border-color:black;
+-fx-padding: 10;
+-fx-spacing: 15;
+
+
+}
+
+.form_container TextField{
+-fx-pref-height: 255;
+-fx-pref-height: 35;
+-fx-background-color:#FFFFFF;
+-fx-font-size: 1.3em;
+-fx-effect:dropshadow(three-pass-box,#AAAAAA,3,0,0,3);
+}
+.form_container Button{
+-fx-background-color:linear-gradient(to right,#0A3353,#016A91);
+-fx-effect:dropshadow(three-pass-box,#AAAAAA,3,0,0,3);
+-fx-pref-width:190;
+-fx-font-size: 1.5em;
+-fx-font-family:"Calibri Light";
+-fx-text-fill:#FFFFFF;
+
+
+}
+.form_container Button:hover{
+-fx-cursor:hand;
+-fx-background-color: #30485c;
+
+}
+.cmd{
+
+-fx-background-color:#0A3353;
+}
+.cmd:hover{
+-fx-background-color:#30485c;
+-fx-cursor:hand;
+-fx-border-width:0 0 1 1;
+-fx-border-color:white;
+
+}
+.eagle:hover{
+-fx-cursor:hand;
+}
+.eagle{
+-fx-background-color:#0A3353;
+}
+.info{
+-fx-background-color:#F4F4F4;
+}
+.info:hover{
+-fx-cursor:hand;
+-fx-size: 45em;
+}
+.back{
+-fx-background-color:#F4F4F4;
+}
+.back:hover{
+
+-fx-cursor:hand;
+
+}

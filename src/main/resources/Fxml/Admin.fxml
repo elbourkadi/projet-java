@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #1F8A70;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.fstt.trackingli.LoginController">
+   <children>
+      <AnchorPane layoutY="215.0" prefHeight="200.0" prefWidth="600.0" style="-fx-background-color: 1F8A70;">
+         <children>
+            <ImageView fx:id="glovo" fitHeight="150.0" fitWidth="200.0" layoutX="470.0" layoutY="79.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/abdoglovo.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="login" layoutX="281.0" layoutY="37.0" mnemonicParsing="false" onAction="#switchToTracking" prefHeight="27.0" prefWidth="83.0" text="Login">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </Button>
+            <Label layoutX="129.0" layoutY="1.0" text="PASSWORD" textFill="#f2f61e">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <PasswordField fx:id="password" layoutX="248.0" layoutY="2.0" prefHeight="25.0" prefWidth="149.0" />
+         </children>
+      </AnchorPane>
+      <TextField fx:id="username" layoutX="246.0" layoutY="177.0" prefHeight="25.0" prefWidth="149.0" />
+      <Label layoutX="131.0" layoutY="176.0" prefHeight="19.0" prefWidth="107.0" text="LOGIN" textFill="#edff2b">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="229.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="229.0">
+         <image>
+            <Image url="@../images/glovologo.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
